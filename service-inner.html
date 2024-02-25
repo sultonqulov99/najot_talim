@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service-modal-page</title>
+    <!-- links icon file all css -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- links main.css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- links media.css file -->
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <div class="site-header-hero">
+      <!-- SITE-HEADER -->
+      <header class="site-header">
+        <div class="container d-flex">
+          <a href="./index.html" class="site-header__logo logo">
+            <img
+              src="./img/soffit-logo.png"
+              alt="Sofffit logo image"
+              class="logo-image"
+              width="106"
+              height="43"
+            />
+          </a>
+          <div class="site-header__menu menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#!" class="menu-link">Services</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!" class="menu-link">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!" class="menu-link">About us</a>
+              </li>
+            </ul>
+            <div class="menu-lang">
+              <a href="#!" class="menu-lang__link">Uz</a>
+              <a href="#!" class="menu-lang__link">Ru</a>
+              <a href="#!" class="menu-lang__link active">En</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- SITE-HEADER -->
+
+      <!-- MODAL PAGE -->
+      <div class="container">
+        <div class="modal">
+          <form action="https://htmlacademy.ru/"  method="POST" class="form-modal">
+            <div>
+              <label for="name">Ism Familiya</label>
+              <input
+              id="name"
+                style="width: 373px"
+                type="text"
+                placeholder="Ismingizni kiriting"
+                name="name"
+                required
+              />
+            </div>
+            <div>
+              <label for="company">Companiyani kiriting</label>
+              <input
+              id="company"
+                style="width: 333px"
+                type="text"
+                placeholder="Company"
+                name="company_name"
+                required
+              />
+            </div>
+            <div>
+              <label for="username">Telegram username</label>
+              <input
+              id="username"
+                style="width: 353px"
+                type="text"
+                placeholder="Username"
+                name="username"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone">Phone number</label>
+              <input
+              id="phone"
+                style="width: 353px"
+                type="tel"
+                placeholder="Phone"
+                value="+998 99"
+                name="phone"
+                required
+              />
+            </div>
+            <div>
+              <label for="">Sayt turini tanlang</label>
+              <div class="select" style="width: 373px" name="" id="">
+                Corpatative sayt
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+            <div>
+              <label for="tg">Telegram</label>
+              <div class="select" style="width: 323px" name="" id="tg">
+                Sizga bog'lanish usulini tanlang
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+            <div>
+              <label for="">Message</label>
+              <textarea name="" id="" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn"
+          >Jo'natish
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_0_1009)">
+              <path
+                d="M11.0007 10.082V7.33203L14.6673 10.9987L11.0007 14.6654V11.9154H7.33398V10.082H11.0007ZM11.0007 1.83203C16.0607 1.83203 20.1673 5.9387 20.1673 10.9987C20.1673 16.0587 16.0607 20.1654 11.0007 20.1654C5.94065 20.1654 1.83398 16.0587 1.83398 10.9987C1.83398 5.9387 5.94065 1.83203 11.0007 1.83203ZM11.0007 18.332C15.0523 18.332 18.334 15.0504 18.334 10.9987C18.334 6.94703 15.0523 3.66536 11.0007 3.66536C6.94898 3.66536 3.66732 6.94703 3.66732 10.9987C3.66732 15.0504 6.94898 18.332 11.0007 18.332Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_0_1009">
+                <rect width="22" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+            </button>
+          </form>
+          <div class="ux-content">
+            <h1>Ux & Ui design</h1>
+
+            <p>
+              In the current tech scenario, one can’t predict what device their
+              user will use to interact with a product. This is why it’s always
+              a good idea to build something that supports all devices. However
+              it is nearly impossible to design for every screen size with so
+              many .
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- /MODAL PAGE -->
+  </body>
+</html>

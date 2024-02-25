@@ -1,0 +1,29 @@
+
+/* Manrope */
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope/static/Manrope-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope/static/Manrope-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope/static/Manrope-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope/static/Manrope-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope/static/Manrope-Regular.ttf);
+    font-weight: 400;
+}
+/* SF Pro Display  */
+
